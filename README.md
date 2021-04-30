@@ -1,2 +1,2 @@
-# Hexagon-2
-This is levelated stage of previous hexagon.
+# Hexagon
+This is a game which is maded by me not to any one 
