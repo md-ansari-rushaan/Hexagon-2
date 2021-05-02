@@ -74,11 +74,6 @@ function draw() {
         fill("lightyellow");
         text("Drag the Hexagonal Stone and Release it, to launch it towards the blocks",100,30);
   }
-  if(gameState=="launched"){
-      textSize(20);
-        fill("lightyellow");
-          text("Press Space To restart",100,50);
-  }
 
   ground.display();
   stand1.display();
@@ -138,9 +133,4 @@ function mouseReleased(){
   gameState = "launched";
 }
 
-function keyPressed(){
-  if(keyCode === 32){
-    slingShot.attach(this.ball);
-    gameState="onSling";
-  }
-}
+
